@@ -42,8 +42,19 @@ function myMap() {
 }
 
 
-        // Smooth scroll function
-        function scrollToSection(sectionId) {
-            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-        }
+// Smooth scroll function
+function scrollToSection(sectionId) {
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+}
+
+// JavaScript function to initiate the call
+function makeCall(phoneNumber) {
+    window.location.href = 'tel:' + phoneNumber;
+}
+
+function sendEmail(to, subject) {
+    var mailtoLink = 'mailto:' + to +
+                     '?subject=' + encodeURIComponent(subject);
+    window.location.href = mailtoLink;
+}
    
