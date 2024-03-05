@@ -303,14 +303,14 @@ a:focus {
 
 .slider_section .detail-box p {
   color: #444;
-  font-size: 15px;
+  font-size: 19px;
 }
 
 .slider_section .detail-box a {
   display: inline-block;
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
-  padding: 10px 45px;
+  padding: 15px 50px;
   background-color: #ff8a1d;
   border: 1px solid #ff8a1d;
   border-radius: 5px;
